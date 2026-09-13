@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-image: url(cafe.jpg);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    padding: 12%;
+    color: white;
+    border-color: blueviolet;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 12%;
+    border-color: violet;
+    background-color: transparent;
+    color: white;
+
+    box-shadow: 
+    0 0 10px violet,
+    0 0 20px violet;
+    
+    transition: 0.3s;
+
+}
+button:hover{
+    background: violet;
+    color: black;
+
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
